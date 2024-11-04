@@ -1,5 +1,6 @@
 import google from '../../assets/googlelogo.png'
 import facebook from '../../assets/facebook.png'
+import { Link } from 'react-router-dom';
 
 const Signup = () => {
     return (
@@ -27,8 +28,8 @@ const Signup = () => {
                     <img className='p-2' src={facebook} alt="" />
                 </div>
               </div>
-              <p className='flex justify-end items-end mx-4'>Already Have An Account?
-              Login</p>
+              <p className='flex justify-end gap-2 items-end mx-4'>Already Have An Account? 
+              <Link className='font-bold' to='/login'>  Login </Link></p>
             </div>
         </div>
     );
