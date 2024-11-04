@@ -22,7 +22,7 @@ const Login = () => {
             
               <p className='flex justify-end gap-2 my-10 items-end mx-4'>Don’t Have An Account?
               
-              <Link to='/'> SignUp</Link></p>
+              <Link to='/signup'> SignUp</Link></p>
             </div>
         </div>
         </div>
