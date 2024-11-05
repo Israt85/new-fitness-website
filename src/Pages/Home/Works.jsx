@@ -1,11 +1,11 @@
 import React from 'react';
-import img1 from '../assets/work1.png'
-import img2 from '../assets/work2.png'
-import img3 from '../assets/work3.png'
+import img1 from '../../assets/work1.png'
+import img2 from '../../assets/work2.png'
+import img3 from '../../assets/work3.png'
 
 const Works = () => {
     return (
-        <div className='w-full h-[800px] bg-black'>
+        <div className='w-full my-10 h-[800px] bg-black'>
             <h2 className='text-7xl text-white text-center pt-20 font-extrabold'>See How Our Website Works</h2>
               <p className='text-center text-xl text-gray-400 py-6'>Explore our easy-to-use tools designed to help you stay on track.</p>
               <div className='flex flex-wrap justify-center gap-20 my-20'>
