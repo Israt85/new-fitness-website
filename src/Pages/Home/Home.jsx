@@ -8,7 +8,7 @@ import Contact from './Contact';
 
 const Home = () => {
     return (
-        <div>
+        <div className='bg-black'>
             <Banner></Banner>
             <Section2></Section2>
             <Purpose></Purpose>

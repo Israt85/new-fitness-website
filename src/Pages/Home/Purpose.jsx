@@ -2,7 +2,7 @@ import purpose from '../../assets/purpose.jpeg'
 
 const Purpose = () => {
     return (
-        <div className='w-full text-white h-[900px]'>
+        <div className='w-full text-white bg-black h-[900px]'>
             <h2 className='text-center font-teko text-7xl p-6 font-bold'>Purpose</h2>
 
             <div className='flex gap-8 justify-around'>
