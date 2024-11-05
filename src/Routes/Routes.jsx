@@ -6,17 +6,17 @@ import Home from "../Pages/Home/Home";
 
 const Router = createBrowserRouter([
     {
-        path: '/',
+        path: '/home',
         element:<MainLayouts></MainLayouts>,
        children:[
         {
-            path:'/',
+            path:'/home',
             element: <Home></Home>
         }
        ]
     },
     {
-      path: "/signup",
+      path: "/",
       element: <Signup></Signup>,
     },
     {

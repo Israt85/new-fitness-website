@@ -11,18 +11,18 @@ const Login = () => {
               <input className="w-96 h-16 bg-transparent rounded-full border" type="text" placeholder="     Email" name="" id="" />
               <input className="w-96 h-16 bg-transparent rounded-full border" type="text" placeholder="     Password" name="" id="" />
               <p className='flex w-96 justify-end items-end'>Forgot Password?</p>
-              <button className="bg-white flex justify-center items-center w-80 h-16 rounded-full text-black">Login
+            <Link to='/home'>  <button className="bg-white flex justify-center items-center w-80 h-16 rounded-full text-black">Login
 
               <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M15.5 12.5L20.5 17.5L15.5 22.5" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
 
-              </button>
+              </button></Link>
               </div>
             
               <p className='flex justify-end gap-2 my-10 items-end mx-4'>Don’t Have An Account?
               
-              <Link to='/signup'> SignUp</Link></p>
+              <Link to='/'> SignUp</Link></p>
             </div>
         </div>
         </div>
