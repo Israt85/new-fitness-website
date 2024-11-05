@@ -5,6 +5,7 @@ const Login = () => {
     return (
         <div>
                <div className="w-full min-h-screen py-10 bg-black">
+            <div className='flex justify-center'>
             <div className="w-[480px] text-white rounded-2xl mx-auto border border-[#FFFF00] h-[600px]">
                 <p className="text-2xl font-bold py-10 px-12">Login</p>
               <div className="flex mt-20 flex-col justify-center items-center gap-6">
@@ -23,6 +24,13 @@ const Login = () => {
               <p className='flex justify-end gap-2 my-10 items-end mx-4'>Don’t Have An Account?
               
               <Link to='/'> SignUp</Link></p>
+            </div>
+            <div className='mr-10'>
+            <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M36.6667 7.33334L7.33334 36.6667M36.6667 36.6667L7.33335 7.33334" stroke="white" stroke-width="2" stroke-linecap="round"/>
+</svg>
+
+            </div>
             </div>
         </div>
         </div>
