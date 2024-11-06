@@ -5,7 +5,6 @@ import MainLayouts from "../Layouts/MainLayouts";
 import Home from "../Pages/Home/Home";
 import AboutUs from "../Pages/AboutUs/AboutUs";
 import Blogs from "../Pages/Blogs/Contact";
-import Contact from "../Pages/Blogs/Contact";
 
 const Router = createBrowserRouter([
     {
@@ -22,7 +21,7 @@ const Router = createBrowserRouter([
         },
         {
           path:'contact',
-          element: <Contact></Contact>
+          element: <Blogs></Blogs>
         }
        ]
     },
