@@ -5,7 +5,7 @@ import footerImg from '../../assets/footer.png'
 
 const Footer = () => {
   return (
-    <footer className="footer bg-gradient-to-t from-[#000000] to-[#800080] text-white p-10 flex flex-col lg:flex-row lg:justify-around">
+    <footer className="footer bg-gradient-to-t from-[#000000] to-[#a127a1] text-white p-10 flex flex-col lg:flex-row lg:justify-around">
       <aside className='mt-4'>
         <div className="flex justify-center gap-4 items-center mb-4">
           <div className="w-16 h-16 bg-[#FFFF00] rounded-full"></div>

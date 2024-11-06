@@ -3,10 +3,12 @@ import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
     const links =<>
-    <NavLink to='/home' className={({ isActive }) =>
-    isActive ? 'mx-4 text-[#D32F2F]' : 'mx-4'
+    <NavLink to='home' className={({ isActive }) =>
+    isActive ? 'mx-4 text-[#D32F2F]' : 'text-white mx-4'
   }>Home</NavLink>
-    <NavLink className='mx-4'>About Us</NavLink>
+    <NavLink to='aboutus' className={({ isActive }) =>
+    isActive ? 'mx-4 text-[#D32F2F]' : 'mx-4'
+  }>About Us</NavLink>
     <NavLink className='mx-4'>Blogs</NavLink>
     <NavLink className='mx-4'>FAQs</NavLink>
     <NavLink className='mx-4'>Contact Us</NavLink>
