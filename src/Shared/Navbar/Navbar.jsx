@@ -11,7 +11,7 @@ const Navbar = () => {
   }>About Us</NavLink>
     <NavLink to='blogs' className='mx-4'>Blogs</NavLink>
     <NavLink className='mx-4'>FAQs</NavLink>
-    <NavLink className='mx-4 px-4 py-1 text-black rounded-full bg-[#FFFF00]'>Contact Us</NavLink>
+    <NavLink to='contact' className='mx-4 px-4 py-1 text-black rounded-full bg-[#FFFF00]'>Contact Us</NavLink>
     </>
     return (
         <div className="navbar w-[1100px] mx-auto relative text-white">
