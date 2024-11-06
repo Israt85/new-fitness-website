@@ -4,6 +4,7 @@ import Login from "../Pages/Login/Login";
 import MainLayouts from "../Layouts/MainLayouts";
 import Home from "../Pages/Home/Home";
 import AboutUs from "../Pages/AboutUs/AboutUs";
+import Blogs from "../Pages/Blogs/Blogs";
 
 const Router = createBrowserRouter([
     {
@@ -11,12 +12,16 @@ const Router = createBrowserRouter([
         element:<MainLayouts></MainLayouts>,
        children:[
         {
-            path:'home',
+            path:'/home',
             element: <Home></Home>
         },
         {
           path:'aboutus',
           element: <AboutUs></AboutUs>
+        },
+        {
+          path:'blogs',
+          element: <Blogs></Blogs>
         }
        ]
     },

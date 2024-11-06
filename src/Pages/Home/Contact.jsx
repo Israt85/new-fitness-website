@@ -3,7 +3,7 @@ import contactImg from '../../assets/contact.png'
 
 const Contact = () => {
     return (
-        <div className='w-full my-10 bg-black h-auto'>
+        <div className='w-full mt-10 bg-black h-auto'>
             <div className=' flex justify-around'>
                 <div className='w-[800px]'>
                     <p className='text-2xl font-teko px-12 font-bold pt-10 text-[#800080]'>Contact Us</p>

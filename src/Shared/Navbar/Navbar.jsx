@@ -3,15 +3,15 @@ import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
     const links =<>
-    <NavLink to='home' className={({ isActive }) =>
+    <NavLink to='/home' className={({ isActive }) =>
     isActive ? 'mx-4 text-[#D32F2F]' : 'text-white mx-4'
   }>Home</NavLink>
     <NavLink to='aboutus' className={({ isActive }) =>
     isActive ? 'mx-4 text-[#D32F2F]' : 'mx-4'
   }>About Us</NavLink>
-    <NavLink className='mx-4'>Blogs</NavLink>
+    <NavLink to='blogs' className='mx-4'>Blogs</NavLink>
     <NavLink className='mx-4'>FAQs</NavLink>
-    <NavLink className='mx-4'>Contact Us</NavLink>
+    <NavLink className='mx-4 px-4 py-1 text-black rounded-full bg-[#FFFF00]'>Contact Us</NavLink>
     </>
     return (
         <div className="navbar w-[1100px] mx-auto relative text-white">
