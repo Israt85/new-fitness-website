@@ -9,8 +9,12 @@ const Navbar = () => {
     <NavLink to='aboutus' className={({ isActive }) =>
     isActive ? 'mx-4 text-[#D32F2F]' : 'mx-4'
   }>About Us</NavLink>
-    <NavLink to='blog' className='mx-4'>Blogs</NavLink>
-    <NavLink to='faq' className='mx-4'>FAQs</NavLink>
+    <NavLink to='blog' className={({ isActive }) =>
+    isActive ? 'mx-4 text-[#D32F2F]' : 'mx-4'
+  }>Blogs</NavLink>
+    <NavLink to='faq' className={({ isActive }) =>
+    isActive ? 'mx-4 text-[#D32F2F]' : 'mx-4'
+  }>FAQs</NavLink>
     <NavLink to='contact' className='mx-4 px-4 py-1 text-black rounded-full bg-[#FFFF00]'>Contact Us</NavLink>
     </>
     return (

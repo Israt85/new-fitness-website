@@ -2,10 +2,12 @@ import React from 'react';
 import contact1 from '../../assets/contactlink.png'
 import contact2 from '../../assets/Contactlink2.png'
 import footerImg from '../../assets/footer.png'
+import Footer2 from './Footer2';
 
 const Footer = () => {
   return (
-    <footer className="footer bg-gradient-to-t from-[#000000] to-[#a127a1] text-white p-10 flex flex-col lg:flex-row lg:justify-around">
+    <div>
+      <footer className="footer bg-gradient-to-t from-[#000000] to-[#a127a1] text-white p-10 flex flex-col lg:flex-row lg:justify-around">
       <aside className='mt-4'>
         <div className="flex justify-center gap-4 items-center mb-4">
           <div className="w-16 h-16 bg-[#FFFF00] rounded-full"></div>
@@ -85,6 +87,8 @@ const Footer = () => {
       
       
     </footer>
+    <Footer2></Footer2>
+    </div>
   );
 };
 
