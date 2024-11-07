@@ -1,6 +1,7 @@
 import React from 'react';
 import img1 from '../../assets/contactlink.png'
 import img2 from '../../assets/Contactlink2.png'
+
 const ContactInfo = () => {
     return (
         <div className='w-full h-[400px] mt-32 mb-20 bg-gradient-to-r from-[#800080] to-[#000000]'>
