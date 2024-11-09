@@ -4,13 +4,13 @@ import img2 from '../../assets/Contactlink2.png'
 
 const ContactInfo = () => {
     return (
-        <div className='w-full h-[400px] mt-32 mb-20 bg-gradient-to-r from-[#800080] to-[#000000]'>
+        <div className='w-full h-auto pb-6 lg:h-[400px] mt-32 mb-20 bg-gradient-to-r from-[#800080] to-[#000000]'>
             <p className='text-5xl font-semibold pt-10 text-white font-teko text-center'>Contact Information</p>
             <p className='text-center text-white'>
             Say something to start a live chat!
             </p>
 
-            <div className='flex justify-center mt-16 gap-32 text-white items-center'>
+            <div className='flex flex-col lg:flex-col justify-center mt-16 gap-32 text-white items-center'>
                <div>
                 <img className='w-[70px] mx-auto h-[70px]' src={img1} alt="" />
                 <p className='pt-8'>USA, Washington DC</p>
