@@ -45,7 +45,7 @@ const Login = () => {
           </div>
           <p className="flex justify-center lg:justify-end gap-2 mt-10 text-sm">
             Don’t Have An Account?
-            <Link to="/signup" className="font-bold text-[#FFFF00] hover:underline">
+            <Link to="/" className="font-bold text-[#FFFF00] hover:underline">
               SignUp
             </Link>
           </p>
