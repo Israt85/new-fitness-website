@@ -29,7 +29,7 @@ const Signup = () => {
               type="password"
               placeholder="Confirm Password"
             />
-            <Link to="/home">
+            <Link to="/">
               <button className="bg-white flex justify-center items-center w-full px-2 lg:w-80 h-16 rounded-full text-black font-semibold">
                 Sign Up
                 <svg

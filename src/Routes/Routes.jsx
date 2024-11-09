@@ -11,11 +11,11 @@ import FAQ from "../Pages/FAQ/FAQ";
 
 const Router = createBrowserRouter([
     {
-        path: '/home',
+        path: '/',
         element:<MainLayouts></MainLayouts>,
        children:[
         {
-            path:'/home',
+            path:'/',
             element: <Home></Home>
         },
         {
@@ -37,7 +37,7 @@ const Router = createBrowserRouter([
        ]
     },
     {
-      path: "/",
+      path: "/signup",
       element: <Signup></Signup>,
     },
     {

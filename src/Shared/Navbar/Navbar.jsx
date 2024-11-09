@@ -3,8 +3,8 @@ import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
     const links =<>
-    <NavLink to='/home' className={({ isActive }) =>
-    isActive ? 'mx-4 text-[#D32F2F]' : 'text-white mx-4'
+    <NavLink to='/' className={({ isActive }) =>
+    isActive ? 'mx-4 text-[#D32F2F]' : ' mx-4'
   }>Home</NavLink>
     <NavLink to='aboutus' className={({ isActive }) =>
     isActive ? 'mx-4 text-[#D32F2F]' : 'mx-4'
