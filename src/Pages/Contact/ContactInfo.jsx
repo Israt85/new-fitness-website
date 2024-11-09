@@ -10,7 +10,7 @@ const ContactInfo = () => {
             Say something to start a live chat!
             </p>
 
-            <div className='flex flex-col lg:flex-col justify-center mt-16 gap-32 text-white items-center'>
+            <div className='flex flex-col lg:flex-row justify-center mt-16 gap-32 text-white items-center'>
                <div>
                 <img className='w-[70px] mx-auto h-[70px]' src={img1} alt="" />
                 <p className='pt-8'>USA, Washington DC</p>
