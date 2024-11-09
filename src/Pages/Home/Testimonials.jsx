@@ -9,7 +9,7 @@ const Testimonials = () => {
                  <p className='text-7xl white font-extrabold text-white p-10'>Customer Testimonials</p>
             </div>
            <div className=' '>
-           <div className="flex absolute -mt-80 w-[1400px]  justify-evenly">
+           <div className="flex absolute -mt-80 w-full  justify-evenly">
   <div>
     <img className="w-60 h-60 relative rounded-full" src={img1} alt="" />
     <div className="w-[500px] -ml-32 -mt-20 h-[530px] bg-black rounded-3xl">
