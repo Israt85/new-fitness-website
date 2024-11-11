@@ -21,7 +21,7 @@ const Navbar = () => {
         <div className="navbar w-[1100px] mx-auto relative text-white">
         <div className="navbar-start ">
           <div className="dropdown ">
-            <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+            <div tabIndex={0} role="button" className="btn btn-ghost xl:hidden">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5"
@@ -42,7 +42,7 @@ const Navbar = () => {
             </ul>
           </div>
         </div>
-        <div className="navbar-end hidden lg:flex">
+        <div className="navbar-end hidden xl:flex">
           <ul className="menu menu-horizontal px-1">
             {links}
             <svg width="30" height="20" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
