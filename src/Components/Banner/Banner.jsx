@@ -3,7 +3,7 @@ import bannerImg from '../../assets/banner.png'
 const Banner = () => {
   return (
     <div
-      className="hero min-h-screen mx-auto -mt-16 bg-black "
+      className="hero h-auto mx-auto -mt-16 bg-black "
       style={{
         backgroundImage: `url(${bannerImg})`, // Using placeholder since we can't import external images
         backgroundSize: 'cover',
@@ -35,9 +35,9 @@ const Banner = () => {
           </p>
 
           {/* CTA Button */}
-          <div className="mt-10 md:mt-16 lg:mt-20">
+          <div className="my-5 md:mt-16 lg:mt-20">
             <div className="flex items-center justify-start">
-              <div className="border rounded-full py-4 px-6 md:px-8 flex items-center gap-4 max-w-full">
+              <div className="border rounded-full py-2 px-6 md:px-8 flex items-center gap-4 max-w-full">
                 <p className="font-sans text-base md:text-lg whitespace-normal">
                   Schedule Your Free Session Today
                 </p>

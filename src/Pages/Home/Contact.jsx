@@ -9,11 +9,11 @@ const Contact = () => {
                     <p className='text-2xl font-teko lg:px-2 px-12 font-bold pt-10 text-[#800080]'>Contact Us</p>
                     <p className='w-full lg:w-[680px] text-3xl lg:text-7xl font-bold lg:px-2 px-11 text-white font-teko'>Send Us A Message
                     & Join Our Team!</p>
-                    <div className='flex lg:flex-row flex-col my-6 lg:justify-start justify-center gap-16'>
+                    <div className='flex md:flex-row flex-col my-6 lg:justify-start justify-center gap-16'>
                         <input className='w-80 h-20 bg-transparent border rounded-full border-[#FFFF00]' type="text" name="" id="" placeholder='          Name'/>
                         <input className='w-80 h-20 bg-transparent border rounded-full border-[#FFFF00]' type="text" name="" id="" placeholder='          Phone' />
                     </div>
-                    <div className='flex lg:flex-row flex-col lg:justify-start justify-center gap-16'>
+                    <div className='flex md:flex-row flex-col lg:justify-start justify-center gap-16'>
                         <input className='w-80 h-20 bg-transparent border rounded-full border-[#FFFF00]' type="email" name="" id="" placeholder='          Email' />
                         <input className='w-80 h-20 bg-transparent border rounded-full border-[#FFFF00]' type="text" name="" id="" placeholder='          Subject' />
                     </div>
@@ -30,7 +30,7 @@ const Contact = () => {
 </div>
 </div>
                 </div>
-                <div className='w-[300px] h-[800px]'>
+                <div className='lg:w-[300px] w-full h-full lg:h-[800px]'>
                     <img className='w-full h-full py-20' src={contactImg} alt="" />
                 </div>
             </div>

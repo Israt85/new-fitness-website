@@ -2,13 +2,13 @@ import React from 'react';
 
 const Trending = () => {
     return (
-        <div className='w-full h-full lg:h-[800px]'>
+        <div className='w-full lg:h-[1300px] xl:h-[800px]'>
             <div className='w-full h-auto lg:h-[630px] bg-gradient-to-t from-[#800080] to-[#000000]'>
                 <div className='text-center pt-10 text-white'>
                     <p className='text-5xl lg:text-7xl font-bold font-teko'>Trending</p>
                     <p className='text-lg mx-auto w-full p-2 lg:w-[550px]'>Stay updated with the latest fitness trends, tips, and insights to elevate your health journey!</p>
                 </div>
-              <div className='flex lg:flex-row flex-col mt-10 justify-center items-center'>
+              <div className='flex lg:flex-row flex-wrap flex-col mt-10 justify-center items-center'>
               <div className='w-full lg:w-[350px] mx-auto my-6 lg:gap-6 shadow-2xl bg-white h-full lg:h-[480px]'>
                              <img className='p-4' src="https://s3-alpha-sig.figma.com/img/9ca4/12fa/840de131974162b09d68033e23a850b5?Expires=1731888000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Jo4XJR7WUiUvDB7yrqc8p4kjGtwM8RrC7HbVimrK2~0O2VLhM6QrtsgbU6Drq5F5j4jaArVX6CIJAS-X-2em-FjmgA5PzsBmQcnUXQ7B7nvUfHvNzt5DaeDVYIw3uEptv3SWA8ox63lKlzJIFROCGYpGnpx6k7gddEzTkTiWQD7lObOq8cOLjbxGoOHF~Fx0wBZSmjkhF52sjlIpdqnAgl8SqfqroVOU7vOckIVWiaoQaYI0burTGeepW4CnBgFs6eZKw7B3TJ8DyA9Bkh4f2pdkeqw65RNUnFQ0xmfNeXphgdNS0gIPqBrx07XrNltwF5Gdbo-RL7w-IWczdvpATQ__" alt="" />
                             <div className='py-2 flex justify-between items-center px-4'>

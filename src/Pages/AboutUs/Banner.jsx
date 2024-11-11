@@ -11,7 +11,7 @@ const Banner = () => {
   }}>
   <div className="lg:w-[1100px] w-full lg:h-[800px] rounded-3xl bg-gradient-to-t from-[#3F3F3FD9] to-[#0000006C]"></div>
   <div className="flex justify-around">
-    <div className='hidden lg:block lg:w-[600px]'>
+    <div className='hidden xl:block lg:w-[600px]'>
 
     </div>
     <div className="w-full lg:w-[500px]">

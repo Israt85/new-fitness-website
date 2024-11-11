@@ -5,10 +5,10 @@ import img3 from '../../assets/work3.png'
 
 const Works = () => {
     return (
-        <div className='w-full my-10 h-[800px] bg-black'>
-            <h2 className='text-7xl text-white text-center pt-20 font-extrabold'>See How Our Website Works</h2>
+        <div className='w-full my-10 h-full xl:h-[700px]   bg-black'>
+            <h2 className='lg:text-7xl text-3xl lg:px-0 px-2 text-white text-center pt-20 font-extrabold'>See How Our Website Works</h2>
               <p className='text-center text-xl text-gray-400 py-6'>Explore our easy-to-use tools designed to help you stay on track.</p>
-              <div className='flex flex-wrap justify-center gap-20 my-20'>
+              <div className='flex flex-wrap justify-center gap-20 my-20 pb-5 '>
                 <div className='w-72 rounded-3xl bg-white h-80'>
                 <div className='relative'>
                 <img className='w-72 h-40' src={img1} alt="" />

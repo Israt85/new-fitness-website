@@ -2,9 +2,9 @@ import React from 'react';
 
 const GeneralFaq = () => {
     return (
-        <div className='w-full mb-10 bg-black h-full lg:h-[700px]'>
+        <div className='w-full mb-10 bg-black h-auto'>
             <h2 className='text-5xl lg:text-7xl font-teko font-bold text-white pt-10 px-4 lg:px-14'>General FAQs</h2>
-           <div className='flex lg:flex-row flex-col justify-center gap-10 items-center'>
+           <div className='flex xl:flex-row flex-col justify-center gap-10 items-center'>
            <div className='w-full lg:w-[700px] mt-6 text-white lg:h-[500px] h-full'>
            <div className="collapse my-6 py-2 rounded-lg collapse-arrow bg-[#42424280]">
   <input type="radio" name="my-accordion-2" defaultChecked />

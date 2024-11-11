@@ -14,7 +14,7 @@ const AllBlogs = () => {
     },[])
     return (
         <div className='my-20 h-auto'>
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center items-center'>
+            <div className='grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 justify-center items-center'>
                 {
                   blogs?.map(blog=><div key={blog?.id} className='w-full lg:w-[380px] mx-auto my-6 gap-6 shadow-2xl bg-gray-200 h-full lg:h-[500px]'>
                              <img className='p-4' src={blog?.img} alt="" />
